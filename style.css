@@ -258,7 +258,7 @@ a {
 .task3 .rectangle {
   width: 350px;
   height: 500px;
-  background: #F2AD43;
+  background: #f2ad43;
   position: absolute;
   left: 50%;
   bottom: 50px;
@@ -267,10 +267,10 @@ a {
   overflow: hidden;
 }
 
-.task3 .rectangle .curcle2{
+.task3 .rectangle .curcle2 {
   width: 320px;
   height: 320px;
-  background: #824B20;
+  background: #824b20;
   border-radius: 50%;
   margin-top: -80px;
   margin-left: 110px;
@@ -278,10 +278,10 @@ a {
   position: relative;
 }
 
-.task3 .rectangle .curcle1{
+.task3 .rectangle .curcle1 {
   width: 120px;
   height: 120px;
-  background: #FFF58F;
+  background: #fff58f;
   border-radius: 50%;
   margin-top: 250px;
   margin-left: 110px;
@@ -289,19 +289,18 @@ a {
   position: relative;
 }
 
-.task3 .rectangle .curcle3{
+.task3 .rectangle .curcle3 {
   width: 320px;
   height: 320px;
-  background: #E08027;
+  background: #e08027;
   border-radius: 50%;
   margin-top: -300px;
-  margin-left:-80px;
+  margin-left: -80px;
   z-index: 2;
   position: relative;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
-
 
 .task4 {
   display: flex;
@@ -310,44 +309,42 @@ a {
   width: 100%;
   height: 800px;
   border: 5px solid black;
-  background: #4863BD;
+  background: #4863bd;
   position: relative;
 }
 
-.task4 .courcel1{
+.task4 .courcel1 {
   width: 600px;
   height: 300px;
-  background: #243D83;
-  position: relative; 
-  
+  background: #243d83;
+  position: relative;
 }
 
-.task4 .courcel2{
+.task4 .courcel2 {
   width: 500px;
   height: 500px;
   margin-right: 40px;
   border-radius: 50%;
-  border: 120px solid #4863BD;
+  border: 120px solid #4863bd;
   /* position: absolute; */
-  top: 50%;   
+  top: 50%;
   left: 50%;
   transform: translate(-110%, 0%);
-  z-index: 2;  
+  z-index: 2;
 }
 
-.task4 .courcel3{
+.task4 .courcel3 {
   width: 100px;
   height: 100px;
   margin-right: 40px;
   border-radius: 50%;
-  background: #EEB850;
+  background: #eeb850;
   position: absolute;
-  top: 44%;   
+  top: 44%;
   left: 39.5%;
   transform: translate(-110%, 0%);
-  z-index: 3;  
+  z-index: 3;
 }
-
 
 /* --------------------------------------------------------------------------------------------- */
 
@@ -357,43 +354,38 @@ a {
   align-items: center;
   width: 100%;
   height: 1000px;
-  background: #4863BD;
+  background: #4863bd;
   position: relative;
 }
 
-.task5 .courcel1{
+.task5 .courcel1 {
   width: 300px;
   height: 500px;
-  background-color: #FFF1C1;
+  background-color: #fff1c1;
   border-radius: 170px 170px 50px 50px;
 }
 
-
-.task5 .courcel2{
+.task5 .courcel2 {
   width: 100px;
   height: 200px;
-  background-color: #FE5F55;
-  border-radius: 0 0  50px 50px;
+  background-color: #fe5f55;
+  border-radius: 0 0 50px 50px;
   position: absolute;
-  top: 75%;   
+  top: 75%;
   left: 47.5%;
 }
 
-
-
-.task5 .courcel4{
+.task5 .courcel4 {
   width: 100px;
   height: 40px;
-  background-color: #A64942;
+  background-color: #a64942;
   position: absolute;
-  top: 75%;   
+  top: 75%;
   left: 47.5%;
-  z-index: 1;  
+  z-index: 1;
 }
 
-
 /* ------------------------------------------------------------------------------------------------------------------------- */
-
 
 .task6 {
   display: flex;
@@ -401,38 +393,34 @@ a {
   align-items: center;
   width: 100%;
   height: 1000px;
-  background: #F3AC3C;
+  background: #f3ac3c;
   position: relative;
 }
 
 .task6 .courcel1 {
   width: 500px;
   height: 500px;
-  background: #1A4341;
+  background: #1a4341;
 }
-
 
 .task6 .courcel2 {
   width: 250px;
   height: 250px;
   background: #998235;
   position: absolute;
-  top: 50%;   
+  top: 50%;
   left: 37.6%;
 }
-
 
 .task6 .courcel4 {
   width: 130px;
   height: 150px;
-  background: #F3AC3C;;
+  background: #f3ac3c;
   position: absolute;
-  top: 60%;   
+  top: 60%;
   left: 43.5%;
-  z-index: 1;  
-
+  z-index: 1;
 }
-
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
 
@@ -449,7 +437,7 @@ a {
 .task7 .courcel1 {
   width: 500px;
   height: 500px;
-  background: #FE5F55;
+  background: #fe5f55;
   border-radius: 215px 215px 130px 130px;
   position: absolute;
   z-index: 1;
@@ -458,31 +446,30 @@ a {
 .task7 .courcel2 {
   width: 200px;
   height: 200px;
-  background: #FFF1C1;
+  background: #fff1c1;
   border-radius: 50%;
   position: absolute;
-  top: 15%;   
+  top: 15%;
   left: 40%;
 }
 
 .task7 .courcel3 {
   width: 200px;
   height: 200px;
-  background: #FFF1C1;
+  background: #fff1c1;
   border-radius: 50%;
   position: absolute;
-  top: 15%;   
+  top: 15%;
   left: 49.5%;
-  
 }
 
 .task7 .courcel4 {
   width: 150px;
   height: 150px;
-  background: #FFF1C1;
+  background: #fff1c1;
   border-radius: 50%;
   position: absolute;
-  top: 43%;   
+  top: 43%;
   left: 40%;
   position: absolute;
   z-index: 4;
@@ -491,10 +478,10 @@ a {
 .task7 .courcel5 {
   width: 150px;
   height: 150px;
-  background: #FFF1C1;
+  background: #fff1c1;
   border-radius: 50%;
   position: absolute;
-  top: 43%;   
+  top: 43%;
   left: 52%;
   position: absolute;
   z-index: 3;
@@ -503,11 +490,272 @@ a {
 .task7 .courcel6 {
   width: 100px;
   height: 25px;
-  background: #FFF1C1;
+  background: #fff1c1;
   border-radius: 10px 10px 10px 10px;
   position: absolute;
-  top: 62%;   
+  top: 62%;
   left: 48%;
   position: absolute;
   z-index: 2;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.task8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+  background: #191919;
+  position: relative;
+}
+
+.task8 .courcel1 {
+  width: 400px;
+  height: 400px;
+  background: #e08027;
+  border-radius: 215px 215px 50px 50px;
+  position: absolute;
+  z-index: 1;
+}
+
+.task8 .courcel2 {
+  width: 400px;
+  height: 400px;
+  background: #e08027;
+  border-radius: 215px 215px 50px 50px;
+  transform-origin: top left;
+}
+
+.task8 .courcel2 {
+  width: 200px;
+  height: 200px;
+  background: #f2ad43;
+  border-radius: 50%;
+  position: absolute;
+  top: 19%;
+  left: 45%;
+}
+.task8 .courcel3 {
+  width: 150px;
+  height: 150px;
+  background: #824b20;
+  border-radius: 50%;
+  position: absolute;
+  top: 62%;
+  left: 46%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.task9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+  background: #0e0e0e;
+  position: relative;
+}
+
+
+.task9 .courcel1 {
+  width: 700px;
+  height: 700px;
+  background: #ac474b;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.task9 .div1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 100px;
+
+}
+
+.task9 .div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.task9 .courcel6 {
+  width: 100px;
+  height: 100px;
+  /* background: white; */
+  border: 20px solid white;
+  margin-bottom: 80px;
+  border-radius: 215px 215px 0 215px;
+}
+
+
+.task9 .courcel7 {
+  width: 100px;
+  height: 100px;
+  /* background: white; */
+  border: 20px solid white;
+
+  margin-bottom: 80px;
+  border-radius: 215px 215px 215px 0;
+}
+
+.task9 .courcel2 {
+  width: 40%;
+  height: 200px;
+  background: white;
+}
+.task9 .courcel3 {
+  width: 40%;
+  height: 200px;
+  background: white;
+}
+
+
+.task9 .courcel4 {
+  width: 40%;
+  height: 200px;
+  background: white;
+}
+
+.task9 .courcel5 {
+  width: 40%;
+  height: 200px;
+  background: white;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.task10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+  background: #7C2AE8;
+  position: relative;
+}
+
+.task10 .login {
+  width: 70%;
+  height: 700px;
+  background: #ac474b;
+  display: flex;
+  
+}
+
+
+.task10 .login .department1 {
+  width: 50%;
+  height: 700px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.task10 .login .department1 h1{
+  font-size: 55px;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+.task10 .login .department1 a{
+  font-size: 17px;
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+.task10 .login .department2 {
+  width: 50%;
+  height: 700px;
+  background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./picture.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.task10 .login .department2 h1 {
+  color: white;
+}
+.task10 .login .department2 p {
+  color: white;
+  font-size: 20px;
+}
+
+.task10 .login .department1 .loginPass {
+  display: flex;
+  flex-direction: column;
+}
+
+.task10 .login .department1 .loginPass input {
+  width: 90%;
+  height: 70px;
+  margin-left: 50px;
+  margin-top: 50px;
+  outline: none; /* bu qismi muhim */
+  box-shadow: none;
+  font-size: 25px;
+  padding: 45px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.task10 .login .department1 .loginPass i {
+  position: relative;
+  font-size: 35px;
+  left: 7%;
+  top: 30%;
+  color: #7C2AE8;
+  z-index: 2;
+}
+
+.task10 .login .department1 button {
+  /* position: relative; */
+  /* z-index: 3; */
+  width: 70%;
+  height: 60px;
+  margin-left: 90px;
+  margin-top: 40px;
+  border: none;
+  background: #7C2AE8;;
+  border-radius: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+
+.task10 .login .department1 .txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.task10 .login .department1 .txt p {
+  font-size: 20px;
+}
+
+.task10 .login .department1 .txt a {
+  font-size: 20px;
+}
+
+
