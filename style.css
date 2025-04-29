@@ -517,7 +517,23 @@ a {
   border-radius: 215px 215px 50px 50px;
   position: absolute;
   z-index: 1;
+  transition: transform 0.3s;
+  cursor: pointer;
 }
+
+.task8 .courcel1:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: rotate(50deg); }
+  25% { transform: rotate(50deg); }
+  50% { transform: rotate(-50deg); }
+  75% { transform: rotate(50deg); }
+  100% { transform: rotate(50deg); }
+}
+
 
 .task8 .courcel2 {
   width: 400px;
@@ -558,14 +574,12 @@ a {
   position: relative;
 }
 
-
 .task9 .courcel1 {
   width: 700px;
   height: 700px;
   background: #ac474b;
   display: flex;
   flex-direction: column;
-
 }
 
 .task9 .div1 {
@@ -573,7 +587,6 @@ a {
   flex-wrap: wrap;
   gap: 10px;
   margin-left: 100px;
-
 }
 
 .task9 .div2 {
@@ -581,6 +594,24 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+
+}
+.task9 .courcel1:hover .div1,
+.task9 .courcel1:hover .div2 {
+  animation: zoomInOut 2s;
+}
+
+@keyframes zoomInOut {
+  0% { transform: scale(0.5); }
+  25% { transform: scale(1); }
+  50% { transform: scale(0.5); }
+  75% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+.task9 .div1,
+.task9 .div2 {
+  transition: transform 0.3s ease;
 }
 
 
@@ -592,7 +623,6 @@ a {
   margin-bottom: 80px;
   border-radius: 215px 215px 0 215px;
 }
-
 
 .task9 .courcel7 {
   width: 100px;
@@ -615,7 +645,6 @@ a {
   background: white;
 }
 
-
 .task9 .courcel4 {
   width: 40%;
   height: 200px;
@@ -628,8 +657,6 @@ a {
   background: white;
 }
 
-
-
 /* ------------------------------------------------------------------------------------------------------------------------- */
 
 .task10 {
@@ -638,7 +665,7 @@ a {
   align-items: center;
   width: 100%;
   height: 1000px;
-  background: #7C2AE8;
+  background: #7c2ae8;
   position: relative;
 }
 
@@ -647,9 +674,7 @@ a {
   height: 700px;
   background: #ac474b;
   display: flex;
-  
 }
-
 
 .task10 .login .department1 {
   width: 50%;
@@ -659,14 +684,13 @@ a {
   flex-direction: column;
 }
 
-
-.task10 .login .department1 h1{
+.task10 .login .department1 h1 {
   font-size: 55px;
   margin-left: 5%;
   margin-top: 60px;
 }
 
-.task10 .login .department1 a{
+.task10 .login .department1 a {
   font-size: 17px;
   margin-left: 8%;
   margin-top: 10px;
@@ -675,18 +699,17 @@ a {
 .task10 .login .department2 {
   width: 50%;
   height: 700px;
-  background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./picture.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./picture.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .task10 .login .department2 h1 {
   color: white;
@@ -714,8 +737,6 @@ a {
   border-bottom: 2px solid #ccc;
   position: relative;
   z-index: 1;
-
-
 }
 
 .task10 .login .department1 .loginPass i {
@@ -723,7 +744,7 @@ a {
   font-size: 35px;
   left: 7%;
   top: 30%;
-  color: #7C2AE8;
+  color: #7c2ae8;
   z-index: 2;
 }
 
@@ -735,12 +756,11 @@ a {
   margin-left: 90px;
   margin-top: 40px;
   border: none;
-  background: #7C2AE8;;
+  background: #7c2ae8;
   border-radius: 10px;
   font-size: 25px;
   color: white;
 }
-
 
 .task10 .login .department1 .txt {
   display: flex;
@@ -757,5 +777,3 @@ a {
 .task10 .login .department1 .txt a {
   font-size: 20px;
 }
-
-
